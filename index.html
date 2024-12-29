@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="tailwind.config.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
@@ -76,7 +77,9 @@
                     <button class="mr-[5px]" type="submit">
                         <i class="fa-solid fa-magnifying-glass text-[#00000066] text-[20px]"></i>
                     </button>
-                    <input type="text" name="" id="" class="bg-transparent text-secondary border-transparent w-[100%] outline-none" placeholder="Tìm kiếm sản phẩm...">
+                    <input type="text" name="" id=""
+                        class="bg-transparent text-secondary border-transparent w-[100%] outline-none"
+                        placeholder="Tìm kiếm sản phẩm...">
                 </form>
 
                 <!-- icon -->
@@ -103,41 +106,48 @@
         <div class="container mx-auto px-[16px]">
             <div class="flex gap-[50px] items-center flex-wrap lg:flex-nowrap">
                 <div class="lg:w-[52%] w-[100%] ">
-                    <h1 class="font-[900] text-[28px] sm:text-[38px] xl:text-[48px] text-primary xl:mb-[10px] mb-[5px]">
+                    <h1 class="font-[900] text-[28px] sm:text-[38px] xl:text-[48px] text-primary xl:mb-[10px] mb-[5px]"
+                        data-aos="fade-right" data-aos-delay="180">
                         CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
                     </h1>
-                    <p class="text-secondary font-[400] text-[14px] sm:text-[16px] xl:mb-[50px] mb-[30px]">
+                    <p class="text-secondary font-[400] text-[14px] sm:text-[16px] xl:mb-[50px] mb-[30px]"
+                        data-aos="fade-right" data-aos-delay="200">
                         Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá
                         tính của bạn và đáp ứng phong cách của bạn.
                     </p>
                     <button type="submit"
-                        class="button font-[500] text-16px text-white bg-primary px-[54px] py-[16px] rounded-[62px] xl:mb-[50px] mb-[30px] sm:w-[auto] w-[100%]">
+                        class="button font-[500] text-16px text-white bg-primary px-[54px] py-[16px] rounded-[62px] xl:mb-[50px] mb-[30px] sm:w-[auto] w-[100%]"
+                        data-aos="fade-right" data-aos-delay="250">
                         Xem Ngay
                     </button>
                     <div class="flex flex-wrap sm:flex-nowrap justify-between">
-                        <div
-                            class="sm:border-r sm:border-[#0000001A] sm:pr-[32px] sm:mr-[32px] text-center sm:text-left">
+                        <div class="sm:border-r sm:border-[#0000001A] sm:pr-[32px] sm:mr-[32px] text-center sm:text-left"
+                            data-aos="fade-up" data-aos-delay="300">
                             <div class="font-[700] text-[24px] sm:text-[30px] xl:text-[40px]">200+</div>
                             <div class="font-[400] text-12px sm:text-[14px] xl:text-[16px] text-secondary">Thương Hiệu
                             </div>
                         </div>
-                        <div
-                            class="sm:border-r sm:border-[#0000001A] sm:pr-[32px] sm:mr-[32px] text-center sm:text-left">
+                        <div class="sm:border-r sm:border-[#0000001A] sm:pr-[32px] sm:mr-[32px] text-center sm:text-left"
+                            data-aos="fade-up" data-aos-delay="350">
                             <div class="font-[700] text-[24px] sm:text-[30px] xl:text-[40px]">2,000+</div>
                             <div class="font-[400] text-12px sm:text-[14px] xl:text-[16px] text-secondary">Sản Phẩm Chất
                                 Lượng</div>
                         </div>
-                        <div class="sm:w-[auto] w-[100%] text-center sm:text-left">
+                        <div class="sm:w-[auto] w-[100%] text-center sm:text-left" data-aos="fade-up"
+                            data-aos-delay="350">
                             <div class="font-[700] text-[24px] sm:text-[30px] xl:text-[40px]">30,000+</div>
                             <div class="font-[400] text-12px sm:text-[14px] xl:text-[16px] text-secondary">Khách Hàng
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class=" sm:w-[100%] lg:w-[48%] relative ">
-                    <img class="w-[100%] h-auto" src="assets/images/banner-1.png" alt="" class="">
-                    <img src="assets/images/Vector.svg" class="absolute top-[40%] left-0 md:block hidden" alt="">
-                    <img src="assets/images/Vector (1).svg" class="absolute top-[5%] md:block hidden right-0" alt="">
+                <div class=" sm:w-[100%] lg:w-[48%] relative object-cover">
+                    <img class="w-[100%] h-auto" src="assets/images/banner-1.png" alt="" class="" data-aos="fade-up"
+                        data-aos-delay="220">
+                    <img src="assets/images/Vector.svg" class="absolute top-[40%] left-0 md:block hidden"
+                        data-aos="fade-up" data-aos-delay="200" alt="">
+                    <img src="assets/images/Vector (1).svg" class="absolute top-[5%] md:block hidden right-0"
+                        data-aos="fade-up" data-aos-delay="200" alt="">
                 </div>
             </div>
         </div>
@@ -145,7 +155,7 @@
     <!-- end-section-1 -->
 
     <!-- section-brand -->
-    <section class="bg-primary py-[42px]">
+    <section class="bg-primary py-[42px] relative">
         <div class="container mx-auto px-[16px]">
             <div
                 class="flex justify-center items-center gap-x-[34px] sm:gap-x-[60px] md:flex-nowrap flex-wrap gap-y-[18px]">
@@ -172,12 +182,14 @@
     <section class="">
         <div class="container mx-auto py-[40px] sm:pt-[62px] px-[16px] sm:pb-[64px] border-b-[1px] border-[#0000001A]">
             <!-- title -->
-            <div class="text-center font-[700] text-[32px] sm:text-[48px] sm:mb-[54px] mb-[32px]">
+            <div class="text-center font-[700] text-[32px] sm:text-[48px] sm:mb-[54px] mb-[32px]" data-aos="fade-up"
+                data-aos-delay="220">
                 THỜI TRANG MỚI
             </div>
 
             <!-- item -->
-            <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[20px]">
+            <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[20px]" data-aos="fade-up"
+                data-aos-delay="250">
                 <a href="">
                     <div class="item">
                         <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
@@ -264,7 +276,7 @@
                 </a>
             </div>
 
-            <div class="text-center">
+            <div class="text-center" data-aos="fade-up" data-aos-delay="250">
                 <button type="submit"
                     class="button font-[500] text-16px text-black border-[1px] border-solid border-[#0000001A] px-[54px] py-[16px] rounded-[62px] lg:w-[auto] w-[100%] mt-[40px] hover:bg-black hover:text-white">
                     Xem Ngay
@@ -275,108 +287,111 @@
     <!-- end-section-2 -->
 
     <!-- section-3  -->
-    <section class=""></section>
-    <div class="container mx-auto py-[40px] sm:pt-[62px] px-[16px] sm:pb-[64px]">
-        <!-- title -->
-        <div class="text-center font-[700] text-[32px] sm:text-[48px] mb-[32px] sm:mb-[54px]">
-            GIẢM GIÁ NHIỀU
-        </div>
+    <section class="">
+        <div class="container mx-auto py-[40px] sm:pt-[62px] px-[16px] sm:pb-[64px]">
+            <!-- title -->
+            <div class="text-center font-[700] text-[32px] sm:text-[48px] mb-[32px] sm:mb-[54px]" data-aos="fade-up"
+            data-aos-delay="220">
+                GIẢM GIÁ NHIỀU
+            </div>
 
-        <!-- item -->
-        <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[20px]">
-            <a href="">
-                <div class="item">
-                    <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
-                        <img src="assets/images/img-5.png" class="w-[100%] object-cover" alt="">
-                    </div>
-                    <div class="item-content">
-                        <div class="font-[700] text-[14px] sm:text-[18px]">Áo Thun Nam Đơn Giản</div>
-                        <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
-                            <div class="">
-                                <img src="assets/images/5stars.png" alt="">
+            <!-- item -->
+            <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[20px]" data-aos="fade-up"
+            data-aos-delay="250">
+                <a href="">
+                    <div class="item">
+                        <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
+                            <img src="assets/images/img-5.png" class="w-[100%] object-cover" alt="">
+                        </div>
+                        <div class="item-content">
+                            <div class="font-[700] text-[14px] sm:text-[18px]">Áo Thun Nam Đơn Giản</div>
+                            <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
+                                <div class="">
+                                    <img src="assets/images/5stars.png" alt="">
+                                </div>
+                                <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
                             </div>
-                            <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
-                        </div>
-                        <div class="price">
-                            <div class="font-[700] text-[14px] sm:text-[18px]">120.000đ</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="item">
-                    <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
-                        <img src="assets/images/img-6.png" class="w-[100%] object-cover" alt="">
-                    </div>
-                    <div class="item-content">
-                        <div class="font-[700] text-[14px] sm:text-[18px]">Quần Jean Nam Phong Cách</div>
-                        <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
-                            <div class="">
-                                <img src="assets/images/5stars.png" alt="">
+                            <div class="price">
+                                <div class="font-[700] text-[14px] sm:text-[18px]">120.000đ</div>
                             </div>
-                            <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
-                        </div>
-                        <div class="price flex items-center gap-[10px] lg:flex-nowrap flex-wrap">
-                            <div class="font-[700] text-[14px] sm:text-[18px]">480.000đ</div>
-                            <div class="text-[#00000066] font-[700] text-[14px] line-through">600.000đ</div>
-                            <div
-                                class="h-[100%] w-[auto] px-[14px] py-[6px] rounded-[62px] text-[#FF3333] bg-[#FF33331A] flex justify-center items-center text-[10px] sm:text-[12px] font-[500]">
-                                -20%</div>
                         </div>
                     </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="item">
-                    <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
-                        <img src="assets/images/img-7.png" class="w-[100%] object-cover" alt="">
-                    </div>
-                    <div class="item-content">
-                        <div class="font-[700] text-[14px] sm:text-[18px]">Áo Sơ Mi Caro</div>
-                        <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
-                            <div class="">
-                                <img src="assets/images/5stars.png" alt="">
+                </a>
+                <a href="">
+                    <div class="item">
+                        <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
+                            <img src="assets/images/img-6.png" class="w-[100%] object-cover" alt="">
+                        </div>
+                        <div class="item-content">
+                            <div class="font-[700] text-[14px] sm:text-[18px]">Quần Jean Nam Phong Cách</div>
+                            <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
+                                <div class="">
+                                    <img src="assets/images/5stars.png" alt="">
+                                </div>
+                                <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
                             </div>
-                            <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
-                        </div>
-                        <div class="price">
-                            <div class="font-[700] text-[14px] sm:text-[18px]">220.000đ</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="item">
-                    <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
-                        <img src="assets/images/img-8.png" class="w-[100%] object-cover" alt="">
-                    </div>
-                    <div class="item-content">
-                        <div class="font-[700] text-[14px] sm:text-[18px]">Áo Thun Nam Sọc Cam</div>
-                        <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
-                            <div class="">
-                                <img src="assets/images/5stars.png" alt="">
+                            <div class="price flex items-center gap-[10px] lg:flex-nowrap flex-wrap">
+                                <div class="font-[700] text-[14px] sm:text-[18px]">480.000đ</div>
+                                <div class="text-[#00000066] font-[700] text-[14px] line-through">600.000đ</div>
+                                <div
+                                    class="h-[100%] w-[auto] px-[14px] py-[6px] rounded-[62px] text-[#FF3333] bg-[#FF33331A] flex justify-center items-center text-[10px] sm:text-[12px] font-[500]">
+                                    -20%</div>
                             </div>
-                            <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
-                        </div>
-                        <div class="price flex items-center gap-[10px] lg:flex-nowrap flex-wrap">
-                            <div class="font-[700] text-[14px] sm:text-[18px]">126.000đ</div>
-                            <div class="text-[#00000066] font-[700] text-[14px] line-through">180.000đ</div>
-                            <div
-                                class="h-[100%] w-[auto] px-[14px] py-[6px] rounded-[62px] text-[#FF3333] bg-[#FF33331A] flex justify-center items-center text-[10px] sm:text-[12px] font-[500]">
-                                -30%</div>
                         </div>
                     </div>
-                </div>
-            </a>
-        </div>
+                </a>
+                <a href="">
+                    <div class="item">
+                        <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
+                            <img src="assets/images/img-7.png" class="w-[100%] object-cover" alt="">
+                        </div>
+                        <div class="item-content">
+                            <div class="font-[700] text-[14px] sm:text-[18px]">Áo Sơ Mi Caro</div>
+                            <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
+                                <div class="">
+                                    <img src="assets/images/5stars.png" alt="">
+                                </div>
+                                <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
+                            </div>
+                            <div class="price">
+                                <div class="font-[700] text-[14px] sm:text-[18px]">220.000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="item">
+                        <div class="item-img mb-[20px] bg-[#F0EEED] aspect-square rounded-[20px]">
+                            <img src="assets/images/img-8.png" class="w-[100%] object-cover" alt="">
+                        </div>
+                        <div class="item-content">
+                            <div class="font-[700] text-[14px] sm:text-[18px]">Áo Thun Nam Sọc Cam</div>
+                            <div class="flex items-center gap-[13px] mt-[10px] mb-[10px]">
+                                <div class="">
+                                    <img src="assets/images/5stars.png" alt="">
+                                </div>
+                                <div class="text-[12px] sm:text-[14px] text-secondary">5/5</div>
+                            </div>
+                            <div class="price flex items-center gap-[10px] lg:flex-nowrap flex-wrap">
+                                <div class="font-[700] text-[14px] sm:text-[18px]">126.000đ</div>
+                                <div class="text-[#00000066] font-[700] text-[14px] line-through">180.000đ</div>
+                                <div
+                                    class="h-[100%] w-[auto] px-[14px] py-[6px] rounded-[62px] text-[#FF3333] bg-[#FF33331A] flex justify-center items-center text-[10px] sm:text-[12px] font-[500]">
+                                    -30%</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-        <div class="text-center">
-            <button type="submit"
-                class="button font-[500] text-16px text-black border-[1px] border-solid border-[#0000001A] px-[54px] py-[16px] rounded-[62px] lg:w-[auto] w-[100%] mt-[40px] hover:bg-black hover:text-white">
-                Xem Ngay
-            </button>
+            <div class="text-center" data-aos="fade-up"
+            data-aos-delay="250">
+                <button type="submit"
+                    class="button font-[500] text-16px text-black border-[1px] border-solid border-[#0000001A] px-[54px] py-[16px] rounded-[62px] lg:w-[auto] w-[100%] mt-[40px] hover:bg-black hover:text-white">
+                    Xem Ngay
+                </button>
+            </div>
         </div>
-    </div>
     </section>
     <!-- end-section-3 -->
 
@@ -385,12 +400,14 @@
         <div class="container mx-auto px-[24px] md:px-[64px] py-[28px] md:py-[70px] bg-[#F0F0F0] rounded-[40px]">
             <div class="flex justify-center">
                 <div
-                    class="text-center font-[700] text-[32px] sm:text-[48px] mb-[16px] md:mb-[60px] sm:w-[auto] w-[58%]">
+                    class="text-center font-[700] text-[32px] sm:text-[48px] mb-[16px] md:mb-[60px] sm:w-[auto] w-[58%]" data-aos="fade-up"
+                    data-aos-delay="220">
                     DANH MỤC NỔI BẬT
                 </div>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
-                <a href="#" class="relative md:w-[auto] w-[100%]">
+                <a href="#" class="relative md:w-[auto] w-[100%]" data-aos="fade-right"
+                data-aos-delay="220">
                     <div
                         class="absolute top-[17px] left-[24px] lg:top-[26px] lg:left-[36px] font-[700] text-[24px] md:text-[28px] xl:text-[36px] text-primary">
                         Đơn Giản
@@ -400,7 +417,8 @@
                     <img src="assets/images/img-15.jpg"
                         class="w-[100%] h-[100%] object-cover rounded-[20px] md:hidden block" alt="">
                 </a>
-                <a href="#" class="lg:col-span-2 relative">
+                <a href="#" class="lg:col-span-2 relative" data-aos="fade-left"
+                data-aos-delay="240">
                     <div
                         class="absolute top-[17px] left-[24px] lg:top-[26px] lg:left-[36px] font-[700] text-[24px] md:text-[28px] xl:text-[36px] text-primary">
                         Lịch Lãm
@@ -410,7 +428,8 @@
                     <img src="assets/images/img-14.png"
                         class="w-[100%] h-[100%] object-cover rounded-[20px] md:hidden block" alt="">
                 </a>
-                <a href="#" class="lg:col-span-2 relative">
+                <a href="#" class="lg:col-span-2 relative" data-aos="fade-up"
+                data-aos-delay="260"> 
                     <div
                         class="absolute top-[17px] left-[24px] lg:top-[26px] lg:left-[36px] font-[700] text-[24px] md:text-[28px] xl:text-[36px] text-primary">
                         Dạ Hội
@@ -420,7 +439,8 @@
                     <img src="assets/images/img-13.png"
                         class="w-[100%] h-[100%] object-cover rounded-[20px] md:hidden block" alt="">
                 </a>
-                <a href="#" class="relative">
+                <a href="#" class="relative" data-aos="fade-left"
+                data-aos-delay="280">
                     <div
                         class="absolute top-[17px] left-[24px] lg:top-[26px] lg:left-[36px] font-[700] text-[24px] md:text-[28px] xl:text-[36px] text-primary">
                         Gym
@@ -438,10 +458,12 @@
     <!-- section-5  -->
     <section class="sm:py-[80px] py-[40px]">
         <div class="container mx-auto md:px-0 px-[16px]">
-            <div class="text-left font-[700] text-[32px] sm:text-[48px] mb-[32px] sm:mb-[54px] mb-[38px]">
+            <div class="text-left font-[700] text-[32px] sm:text-[48px] mb-[32px] sm:mb-[54px] mb-[38px]" data-aos="fade-up"
+            data-aos-delay="250">
                 CẢM NHẬN CỦA KHÁCH HÀNG
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-[20px]" data-aos="fade-up"
+            data-aos-delay="250">
                 <a href="">
                     <div class="py-[28px] px-[32px] border border-solid border-[#0000001A] rounded-[20px]">
                         <div class="mb-[15px]">
@@ -508,23 +530,29 @@
     <!-- footer -->
     <footer class="bg-[#F0F0F0] mt-[130px]">
         <div class="container mx-auto md:px-0 px-[16px]">
-
-            <div class="bg-primary flex-wrap md:flex-nowrap flex justify-between items-center px-[24px] py-[32px] sm:py-[36px] sm:px-[64px] rounded-[20px] mb-[50px] relative top-[-95px]">
+            <div
+                class="bg-primary flex-wrap md:flex-nowrap flex justify-between items-center px-[24px] py-[32px] sm:py-[36px] sm:px-[64px] rounded-[20px] mb-[50px] relative top-[-95px]"
+                data-aos="fade-up"
+                data-aos-delay="220"
+                >
                 <div class="font-[700] text-[32px] lg:text-[40px] text-white w-[100%] md:w-[50%] md:mb-0 mb-[20px]">
                     CẬP NHẬT VỀ ƯU ĐÃI MỚI NHẤT CỦA CHÚNG TÔI
                 </div>
                 <div class="xl:w-[32%] w-[100%] md:w-[40%]">
-                    <form action="#" class="w-[100%] py-[12px] px-[16px] rounded-[62px] bg-white items-center mb-[14px] text-nowrap">
+                    <form action="#"
+                        class="w-[100%] py-[12px] px-[16px] rounded-[62px] bg-white items-center mb-[14px] text-nowrap">
                         <i class="fa-regular fa-envelope text-[#00000066] mr-[14px]"></i>
                         <input class="w-[90%] outline-none" type="text" placeholder="Nhập email của bạn...">
                     </form>
-                    <button type="submit" class="w-[100%] bg-white py-[12px] px-[16px] rounded-[62px] bg-white items-center ">
+                    <button type="submit"
+                        class="w-[100%] bg-white py-[12px] px-[16px] rounded-[62px] bg-white items-center ">
                         <a href="#" class="font-[500]">Đăng Ký Nhận Tin</a>
                     </button>
                 </div>
             </div>
 
-            <div class="pb-[38px] sm:pb-[48px] lg:flex-nowrap flex-wrap flex justify-between gap-[20px] sm:gap-[50px] border-b border-solid-1px border-[#0000001A] mt-[-105px] sm:mt-[-90px]">
+            <div
+                class="pb-[38px] sm:pb-[48px] lg:flex-nowrap flex-wrap flex justify-between gap-[20px] sm:gap-[50px] border-b border-solid-1px border-[#0000001A] mt-[-105px] sm:mt-[-90px]">
                 <div class="md:w-[20%] w-[100%]">
                     <div class="sm:mb-[25px] mb-[20px]">
                         <a href="#" class="font-[700] text-[29px] sm:text-[34px]">
@@ -536,17 +564,20 @@
                     </p>
                     <nav class="">
                         <ul class="flex gap-[12px]">
-                            <li class="w-[28px] h-[28px] bg-white border border-solid border-[#00000033] rounded-[50%] inline-flex justify-center items-center hover:bg-black hover:text-white">
+                            <li
+                                class="w-[28px] h-[28px] bg-white border border-solid border-[#00000033] rounded-[50%] inline-flex justify-center items-center hover:bg-black hover:text-white">
                                 <a href="#">
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </li>
-                            <li class="w-[28px] h-[28px] bg-white border border-solid border-[#00000033] rounded-[50%] inline-flex justify-center items-center hover:bg-black hover:text-white">
+                            <li
+                                class="w-[28px] h-[28px] bg-white border border-solid border-[#00000033] rounded-[50%] inline-flex justify-center items-center hover:bg-black hover:text-white">
                                 <a href="#">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </a>
                             </li>
-                            <li class="w-[28px] h-[28px] bg-white border border-solid border-[#00000033] rounded-[50%] inline-flex justify-center items-center hover:bg-black hover:text-white">
+                            <li
+                                class="w-[28px] h-[28px] bg-white border border-solid border-[#00000033] rounded-[50%] inline-flex justify-center items-center hover:bg-black hover:text-white">
                                 <a href="#">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
@@ -678,5 +709,8 @@
         </div>
     </footer>
 </body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </html>
